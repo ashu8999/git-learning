@@ -1,0 +1,38 @@
+# l1 = ["Ash", "Deepak", "Rane", "Aditya", "Mayur"," Dhangar", "Ritik", "Rathod"]
+
+# for i in l1:
+#     if i[0].lower() == 'd':
+#         print("Aaizaavdya", i)
+
+#     elif i[0].lower() == 'm' or i[0].lower() == 'd':
+#         print(f"{i} Rand is my favourite keywords")
+
+# a = int(input("Enter the number for prime number"))
+
+# prime = True
+
+# if a<=1:
+#     print("Not a prime numbere")
+# else:
+#     for i in range(2,a):
+#         if a%i == 0:
+#             prime = False
+#             print(i)
+
+# if prime ==False:
+#    print(a)
+# else:
+#     print("not a prime number")
+
+#Sum of N Natural Numbers
+
+n = int (input("Enter the Number of value:"))
+i = 1
+ab = 0
+while i <= n:
+    ab = n*(n+1)/2
+    i = i+1
+
+print(int(ab))
+        
+
