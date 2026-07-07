@@ -49,10 +49,10 @@
 #function to calculate frahenhiet to celcius
 #(franheneit - 32) × 5/9
 
-def calculation(frahen):
-    celcius = (frahen - 32) * 5 / 9
-    return celcius
+# def calculation(frahen):
+#     celcius = (frahen - 32) * 5 / 9
+#     return celcius
 
-frahen = float (input("Enter the franheight value:"))
-c = calculation(frahen)
-print(f"degree is {round(c)}")
+# frahen = float (input("Enter the franheight value:"))
+# c = calculation(frahen)
+# print(f"degree is {round(c)}")
