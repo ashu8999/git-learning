@@ -1,0 +1,22 @@
+class Employee:
+    def __init__(self):
+        print("constrction of the employee")
+    Name = "Ash"
+    print(f"Name of the Employee is {Name}")
+
+class programmer(Employee):
+    def __init__(self):
+        super().__init__()
+        print("constrction of the programmer")
+    Program = "Python"
+    print(f"{Employee.Name} works on {Program}")
+
+class manager(programmer):
+    def __init__(self):
+        super().__init__()
+        print("constrction of the manager")
+    Manager = "Access"
+    print(f"He has Manager {Manager}")
+
+
+m = manager()
