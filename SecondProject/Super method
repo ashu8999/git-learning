@@ -1,8 +1,10 @@
 class Employee:
+    @classmethod
+    a = "Ash"
     def __init__(self):
         print("constrction of the employee")
-    Name = "Ash"
-    print(f"Name of the Employee is {Name}")
+    def employee_name(self):
+        print(f"Name of the Employee is {self.Name}")
 
 class programmer(Employee):
     def __init__(self):
