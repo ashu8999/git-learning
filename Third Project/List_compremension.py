@@ -9,6 +9,6 @@ try:
     
     
     with open (r"C:\Users\User\Coding\Third Project\c.txt","w") as f:
-        a = f.write(str(multiplication_table)+"/n")
+        a = f.write(str(multiplication_table) + "/n")
 except Exception as err:
     print(err)

@@ -1,4 +1,4 @@
-def div(a: int, b : int):int
+def div(a: int, b : int):
     try:
         print(f" {a/b}")
     except ZeroDivisionError as err:

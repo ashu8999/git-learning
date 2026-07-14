@@ -9,9 +9,19 @@ class train():
     def ticket_fare(fare):
         print(f"your ticket fare is:{fare}")
     
+class traindetails(train):
+    @cl
+    def train_ticket_update(ticket):
+        print(f"Your ticket has been cancelled,{ticket}")
+    
+    # def train_run(status):
+    #     print(f"Your ticket has been cancelled,{status}")
+    
+    # def train_fare(fare):
+    #     print(f"Your ticket fare has increased,{fare}")
 
-a = ("Panel to Pune")
-b = ("Running status of train Pragati Express on time")
+a = input("Enter your travel location")
+b = input("Enter your train name")
 c = ("Ticket fare for the train is:",randint(100, 500))
 
 Details = train.train_booking(a), train.train_get_status(b), train.ticket_fare(c)
